@@ -4,6 +4,8 @@ Portfolio personnel one page de **Kadjo Kadjo Joël Timothée** (alias **Tk_Tk**
 
 Le site présente mon parcours, mes compétences et mes projets, et permet de me contacter directement.
 
+**lien de la vidéo de presentation du portfolio** : **(https://drive.google.com/file/d/1wHzDfC72jemGeZ5z0fgc_XvqwWEvk2ie/view?usp=sharing)**
+
 **Voir le site en ligne : [kadjotimothee00-pixel.github.io/Mon-portfolio](https://kadjotimothee00-pixel.github.io/Mon-portfolio/)**
 
 ## Aperçu
