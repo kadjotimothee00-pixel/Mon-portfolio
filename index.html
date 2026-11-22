@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tk_Tk-Portfolio </title>
+  <meta name="description" content="Portfolio de Kadjo Kadjo Joël Timothée (Tk_Tk), étudiant en Génie Logiciel à l'IIT : développeur FullStack et mobile en Côte d'Ivoire.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800;900&family=Inter:wght@300;400;600&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#liens-nav" data-bs-root-margin="0px 0px -40%">
+
+  <!-- HEADER -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-flottante">
+    <div class="container-fluid">
+
+      <a class="navbar-brand logo" href="#accueil">Tk_Tk<span class="point">.</span></a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+              aria-controls="menu" aria-expanded="false" aria-label="Ouvrir le menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav mx-auto pilule-nav" id="liens-nav">
+          <li class="nav-item"><a class="nav-link" href="#apropos">À propos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills &amp; Stack</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projets">Projets</a></li>
+        </ul>
+
+        <a class="btn-tk btn-principal" href="#contact">
+          <span>Contact</span>
+          <span class="btn-rond">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="accueil">
+
+      <div class="forme forme-1" aria-hidden="true"></div>
+      <div class="forme forme-2" aria-hidden="true"></div>
+      <div class="forme forme-3" aria-hidden="true"></div>
+      <div class="forme forme-4" aria-hidden="true"></div>
+
+      <div class="container position-relative">
+
+        <div class="text-center reveal">
+          <span class="badge-pilule">Étudiant en Génie Logiciel / L2 / IIT</span>
+
+          <h1 class="hero-titre">
+            Kadjo Kadjo<br>
+            <span class="vert">Joël Timothée</span>
+          </h1>
+
+          <p class="hero-sous-titre">DÉVELOPPEUR · CONCEPTEUR · CRÉATIF</p>
+
+          <blockquote class="citation">
+            « Apprendre, construire, améliorer : c'est ma façon d'avancer. »
+          </blockquote>
+        </div>
+
+        <div class="row align-items-center g-4 mt-2">
+
+          <div class="col-12 col-lg-3 order-2 order-lg-1 reveal">
+            <ul class="roles">
+              <li><span class="role-num">01</span> Développeur FullStack</li>
+              <li><span class="role-num">02</span> Développeur base de donnée</li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-lg-6 order-1 order-lg-2">
+            <div class="photo-wrap">
+              <div class="photo-anneau" aria-hidden="true"></div>
+              <div class="photo-boite">
+                <div class="cercle-grand" aria-hidden="true"></div>
+                <div class="cercle-petit" aria-hidden="true"></div>
+                <img src="images/photo.png" alt="Portrait de Kadjo Kadjo Joël Timothée" class="photo">
+              </div>
+              <span class="point-deco point-vert" aria-hidden="true"></span>
+              <span class="point-deco point-choco" aria-hidden="true"></span>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-3 order-3 reveal">
+            <div class="hero-boutons">
+              <a class="btn-tk btn-principal mono" href="#projets">
+                <span>./voir_projets</span>
+                <span class="btn-rond">
+                  <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </span>
+              </a>
+              <a class="btn-tk btn-secondaire mono" href="cv.pdf" target="_blank" rel="noopener">
+                <span>./voir_cv</span>
+                <span class="btn-rond">
+                  <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 01 : À PROPOS -->
+    <section class="section" id="apropos">
+      <div class="container">
+
+        <div class="section-entete reveal">
+          <span class="section-num">01</span>
+          <h2 class="section-titre">À PROPOS</h2>
+          <span class="section-ligne"></span>
+        </div>
+
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-6 reveal">
+            <div class="texte-apropos">
+              <p>Je suis <strong>Kadjo Kadjo Joël Timothée</strong>, alias <strong>Tk_Tk</strong>, étudiant en <strong>Génie Logiciel</strong> à <strong>Grand-Bassam, Côte d'Ivoire</strong>.</p>
+              <p>Actuellement en <strong>Licence</strong> à l'<strong>IIT – Institut Ivoirien de Technologie</strong>, je conçois des <strong>applications web, mobiles et desktop</strong>, de la modélisation jusqu'au code.</p>
+              <p>Je travaille au croisement du <strong>code</strong>, des <strong>données</strong> et du <strong>design</strong>. Que ce soit une app mobile en Flutter/Firebase, un scraper Python/Selenium ou une base SQL Server, j'avance avec <strong>rigueur</strong> et <strong>curiosité</strong>.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6 reveal">
+            <div class="row g-3">
+              <div class="col-6">
+                <div class="case-chiffre">
+                  <span class="chiffre" id="compteur" data-cible="3">3+</span>
+                  <span class="chiffre-label">PROJETS</span>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="case-chiffre">
+                  <span class="chiffre">∞</span>
+                  <span class="chiffre-label">CURIOSITÉ</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 02 : SKILLS & STACK -->
+    <section class="section" id="skills">
+      <div class="container">
+
+        <div class="section-entete reveal">
+          <span class="section-num">02</span>
+          <h2 class="section-titre">SKILLS &amp; STACK</h2>
+          <span class="section-ligne"></span>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-12 col-md-6 col-lg-4 reveal">
+            <div class="carte">
+              <h3 class="carte-titre">// DÉVELOPPEMENT</h3>
+              <ul class="etiquettes">
+                <li>Python</li><li>Dart</li><li>JavaScript</li><li>HTML/CSS</li><li>C/C#</li><li>Java</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 reveal">
+            <div class="carte">
+              <h3 class="carte-titre">// BASES DE DONNÉES</h3>
+              <ul class="etiquettes">
+                <li>SQL Server</li><li>MySQL</li><li>Firebase</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 reveal">
+            <div class="carte">
+              <h3 class="carte-titre">// CONCEPTION</h3>
+              <ul class="etiquettes">
+                <li>UML</li><li>Looping</li><li>Figma</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-12 reveal">
+            <div class="carte">
+              <h3 class="carte-titre">// OUTILS</h3>
+              <ul class="etiquettes">
+                <li>Git / GitHub</li><li>VS Code</li><li>PyCharm</li><li>Visual Studio</li><li>Word / Excel / PowerPoint</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 03 : PROJETS -->
+    <section class="section" id="projets">
+      <div class="container">
+
+        <div class="section-entete reveal">
+          <span class="section-num">03</span>
+          <h2 class="section-titre">PROJETS</h2>
+          <span class="section-ligne"></span>
+        </div>
+
+        <div class="row g-4">
+
+          <div class="col-12 col-md-6 col-lg-4 reveal">
+            <article class="carte-projet">
+              <div class="projet-corps">
+                <span class="projet-code">PROJET_01</span>
+                <h3 class="projet-nom">EXPLORE CI</h3>
+                <p class="projet-desc"><strong>ExploreCI</strong> est une application mobile qui aide à découvrir les sites touristiques de Côte d'Ivoire. Elle s'adresse aux touristes, aux visiteurs étrangers et aux Ivoiriens qui veulent explorer leur pays. Sa fonctionnalité clé est une carte interactive qui affiche les sites et calcule l'itinéraire GPS pour s'y rendre.</p>
+                <ul class="techno-liste">
+                  <li>Flutter</li><li>Dart</li><li>Firebase</li><li>Android Studio</li>
+                </ul>
+                <a class="lien-github" href="https://github.com/kadjotimothee00-pixel/exploreci">GITHUB →</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 reveal">
+            <article class="carte-projet">
+              <div class="projet-corps">
+                <span class="projet-code">PROJET_02</span>
+                <h3 class="projet-nom">MA BIBLIOTHÈQUE</h3>
+                <p class="projet-desc"><strong>Gestion de Bibliothèque</strong> est une application console en Python, avec une base SQLite, qui gère le fonctionnement quotidien d'une bibliothèque : le catalogue de livres, les emprunts, les retours, les prolongations et les amendes de retard. Elle s'adresse aux bibliothécaires, qui administrent le fonds et enregistrent les retours, ainsi qu'aux lecteurs qui viennent lire sur place ou emprunter des livres. Sa fonctionnalité clé est l'ajout automatique d'un livre au catalogue à partir de son ISBN, grâce à l'API Google Books.</p>
+                <ul class="techno-liste">
+                  <li>Python</li><li>Tkinter</li>
+                </ul>
+                <a class="lien-github" href="https://github.com/kadjotimothee00-pixel/projet3_bibliotheque">GITHUB →</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 reveal">
+            <article class="carte-projet">
+              <div class="projet-corps">
+                <span class="projet-code">PROJET_03</span>
+                <h3 class="projet-nom">WEB SCRAPING AMAZON</h3>
+                <p class="projet-desc"><strong>C'est une application console</strong> qui collecte les données des produits sur Jumia CI et Amazon.fr, pour ceux qui veulent comparer des produits et des prix. Les données sont exportées automatiquement en Excel, classées par catégorie, et en CSV.</p>
+                <ul class="techno-liste">
+                  <li>Python</li><li>Selenium</li>
+                </ul>
+                <a class="lien-github" href="https://github.com/kadjotimothee00-pixel/web_scraping_amazon">GITHUB →</a>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 04 : CONTACT -->
+    <hr class="ligne-pleine">
+
+    <section class="section" id="contact">
+      <div class="container">
+
+        <div class="section-entete reveal">
+          <span class="section-num">04</span>
+          <h2 class="section-titre">CONTACT</h2>
+          <span class="section-ligne"></span>
+        </div>
+
+        <div class="row g-5">
+
+          <div class="col-12 col-lg-6 reveal">
+            <ul class="comptes">
+              <li>
+                <span class="compte-code">[GH]</span>
+                <a href="https://github.com/kadjotimothee00-pixel" target="_blank" rel="noopener">github.com/kadjotimothee00-pixel</a>
+              </li>
+              <li>
+                <span class="compte-code">[LI]</span>
+                <a href="https://www.linkedin.com/in/kadjo-jo%C3%ABl-timoth%C3%A9e-kadjo-52b573417/" target="_blank" rel="noopener">linkedin.com/in/kadjo-jo</a>
+              </li>
+              <li>
+                <span class="compte-code">[ML]</span>
+                <a href="mailto:Kadjotimothee@gmail.com">Kadjotimothee@gmail.com</a>
+              </li>
+              <li>
+                <span class="compte-code">[LC]</span>
+                <span class="compte-texte">Bonoua, Côte d'Ivoire</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-lg-6 reveal">
+            <form id="contact-form" action="https://formspree.io/f/xoedkjgk" method="POST" novalidate>
+              <div class="mb-3">
+                <label for="nom" class="form-label">// IDENTIFIANT</label>
+                <input type="text" class="form-control" id="nom" name="name" placeholder="Ton nom ou pseudo">
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">// ADRESSE DE RETOUR</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="ton@email.com">
+              </div>
+              <div class="mb-4">
+                <label for="message" class="form-label">// MESSAGE</label>
+                <textarea class="form-control" id="message" name="message" rows="5" placeholder="Écris ton message…"></textarea>
+              </div>
+
+              <button type="submit" class="btn-tk btn-principal mono" id="bouton-envoyer">
+                <span>./envoyer_message</span>
+                <span class="btn-rond">
+                  <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </span>
+              </button>
+
+              <p class="form-statut" id="form-statut" aria-live="polite"></p>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- BANDEAU DÉFILANT + COPYRIGHT -->
+  <footer>
+    <hr class="ligne-pleine">
+
+    <div class="bandeau">
+      <div class="bandeau-piste">
+        <div class="bandeau-groupe">
+          <span class="plein">N'hésitez pas à me contacter</span><span class="etoile">✦</span>
+          <span class="contour">Travaillons ensemble</span><span class="etoile">✦</span>
+          <span class="plein">Parlons de votre projet</span><span class="etoile">✦</span>
+          <span class="contour">Ouvert aux stages</span><span class="etoile">✦</span>
+          <span class="plein">Une idée ? Codons-la</span><span class="etoile">✦</span>
+        </div>
+        <div class="bandeau-groupe" aria-hidden="true">
+          <span class="plein">N'hésitez pas à me contacter</span><span class="etoile">✦</span>
+          <span class="contour">Travaillons ensemble</span><span class="etoile">✦</span>
+          <span class="plein">Parlons de votre projet</span><span class="etoile">✦</span>
+          <span class="contour">Ouvert aux stages</span><span class="etoile">✦</span>
+          <span class="plein">Une idée ? Codons-la</span><span class="etoile">✦</span>
+        </div>
+      </div>
+    </div>
+
+    <hr class="ligne-pleine">
+
+    <div class="container">
+      <p class="copyright">© <span id="annee">2026</span> Tk_Tk - Kadjo Kadjo Joël Timothée, Bonoua.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
